@@ -1,22 +1,22 @@
 {
-    "name": "spatie/:package_name",
-    "description": ":package_description",
+    "name": "sidis405/unit-conversions",
+    "description": "A silly lil package to perform unit conversions",
     "keywords": [
-        "spatie",
-        ":package_name"
+        "sidis405",
+        "unit-conversions"
     ],
-    "homepage": "https://github.com/spatie/:package_name",
+    "homepage": "https://github.com/sidis405/unit-conversions",
     "license": "MIT",
     "authors": [
         {
-            "name": ":author_name",
-            "email": ":author_email",
-            "homepage": "https://spatie.be",
+            "name": "Sidrit Trandafili",
+            "email": "forge405@gmail.com",
+            "homepage": "https://trandafili.com",
             "role": "Developer"
         }
     ],
     "require": {
-        "php": "^7.4"
+        "php": "^7.3"
     },
     "require-dev": {
         "friendsofphp/php-cs-fixer": "^2.16",
@@ -25,12 +25,12 @@
     },
     "autoload": {
         "psr-4": {
-            "Spatie\\Skeleton\\": "src"
+            "Sidis405\\UnitConversions\\": "src"
         }
     },
     "autoload-dev": {
         "psr-4": {
-            "Spatie\\Skeleton\\Tests\\": "tests"
+            "Sidis405\\UnitConversions\\Tests\\": "tests"
         }
     },
     "scripts": {
